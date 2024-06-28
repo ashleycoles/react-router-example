@@ -4,6 +4,9 @@ import Nav from "./components/Nav"
 import AboutPage from "./pages/AboutPage"
 import ContactPage from "./pages/ContactPage"
 import HomePage from "./pages/HomePage"
+import ProductPage from "./pages/ProductPage"
+import BookListingPage from "./pages/BookListingPage"
+import BookDetailPage from "./pages/BookDetailPage"
 
 function App() {
     return (
@@ -16,6 +19,8 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/books" element={<BookListingPage />} />
+                <Route path="/book/:id" element={<BookDetailPage />} />
             </Routes>
 
             <Footer />
