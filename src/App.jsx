@@ -1,7 +1,12 @@
+import Footer from "./components/Footer"
+import Nav from "./components/Nav"
+
 function App() {
   return (
     <>
-      <h1>Learning about routing</h1>
+      <Nav />
+
+      <Footer />
     </>
   )
 }
